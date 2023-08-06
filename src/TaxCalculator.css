@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.tax-calculator {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.tax-calculator h1 {
+  text-align: center;
+}
+
+.tax-calculator h2 {
+  text-align: center;
+}
+
+.tax-calculator form {
+  margin-bottom: 20px;
+}
+
+.tax-calculator input {
+  margin-bottom: 25px;
+  padding: 5px;
+  width: 95%;
+  border-radius: 4px;
+  border: solid 1px #ccc;
+}
+
+.button {
+  text-align: center;
+}
+
+.tax-calculator button {
+  background-color: #54b435;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
